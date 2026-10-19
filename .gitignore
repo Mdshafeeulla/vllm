@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# LanceDB persistent data
+data/
+*.lance
+enterprise-rag-linux-amd64.tar
+
+# Test images
+IT_Policy_Infographic.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment and local admin credentials
+.env
+data/admin_account.json
+
+
